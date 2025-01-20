@@ -4,7 +4,7 @@ from telegram.ext import Updater, CommandHandler, CallbackContext
 # Define a function for the /start command
 def start(update: Update, context: CallbackContext):
     # Define the image path (make sure the image exists in the directory)
-    image_path = "Car.png"  # Adjust the path if necessary
+    image_path = "IMG_20250120_212008_499.jpg"  # Adjust the path if necessary
     
     # Create inline buttons
     keyboard = [
