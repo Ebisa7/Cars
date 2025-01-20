@@ -23,7 +23,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Main function to start the bot
 def main():
     # Use your bot token here
-    token = "YOUR_BOT_TOKEN"
+    token = "7899640920:AAEmIEb6qOfx1oxmYmLQU8wALLFyRuRz_Dg"
 
     # Create the Application and pass the bot token
     application = ApplicationBuilder().token(token).build()
